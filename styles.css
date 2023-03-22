@@ -1,0 +1,91 @@
+h1 {
+  font-weight: 500;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 25px;
+  padding-left: 25px;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 15px;
+  padding-left: 25px;
+  padding-top: 0px;
+  font-weight: 400;
+}
+.fa-solid {
+  border-style: solid;
+  border-radius: 4px;
+  padding: 6px 8px;
+  border-color: powderblue;
+  border-width: thin;
+}
+input[type="search"] {
+  width: 400;
+  margin: 5px 5px;
+  box-sizing: border-box;
+  text-align: center;
+  border-width: 2px;
+}
+.container {
+  width: 500;
+  display: block;
+}
+
+.card-text {
+  widows: 200px;
+  text-align: right;
+  background: royalblue;
+  font-size: 22px;
+  font-family: arial, sans-serif;
+}
+
+.card-text-1 {
+  font-size: 18px;
+  text-align: left;
+  width: 130px;
+}
+.days {
+  font-size: 15px;
+  font-weight: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row {
+  font-size: 17px;
+  font-weight: 600;
+  color: #163172;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(226, 240, 254) 0%,
+    rgb(255, 247, 228) 90%
+  );
+}
+li {
+  list-style: none;
+}
+ul {
+  margin: 0 0 20px;
+  padding: 0;
+}
+.weather-app {
+  border: 1px solid #163172;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.temp {
+  display: inline;
+  color: rgb (232, 234, 237);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 56px;
+}
+.w-icon {
+  height: 64px;
+  width: 64px;
+}
+.degree {
+  position: relative;
+  top: -32px;
+}
